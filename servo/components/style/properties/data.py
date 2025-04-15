@@ -616,6 +616,7 @@ class Longhand(Property):
                 "TouchAction",
                 "TransformStyle",
                 "UserSelect",
+                "VectorEffect",
                 "WordBreak",
                 "XSpan",
                 "XTextScale",
