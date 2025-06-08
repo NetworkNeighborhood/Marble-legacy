@@ -1,6 +1,118 @@
 {
   "data": [
     {
+      "id": "96ad4fd9-4bbb-454d-bbe5-24225a2cbe04",
+      "last_modified": 1745933974542,
+      "locales": [
+        "af",
+        "an",
+        "ar",
+        "ast",
+        "az",
+        "be",
+        "bg",
+        "bn",
+        "bn-BD",
+        "bn-IN",
+        "br",
+        "bs",
+        "ca",
+        "ca-valencia",
+        "cak",
+        "cs",
+        "cy",
+        "da",
+        "de",
+        "dsb",
+        "el",
+        "en-CA",
+        "en-GB",
+        "en-US",
+        "eo",
+        "es-AR",
+        "es-CL",
+        "es-ES",
+        "es-MX",
+        "et",
+        "eu",
+        "fa",
+        "ff",
+        "fi",
+        "fr",
+        "fur",
+        "fy-NL",
+        "ga-IE",
+        "gd",
+        "gl",
+        "gn",
+        "gu-IN",
+        "he",
+        "hi-IN",
+        "hr",
+        "hsb",
+        "hu",
+        "hy-AM",
+        "ia",
+        "id",
+        "is",
+        "it",
+        "ja",
+        "ja-JP-macos",
+        "ka",
+        "kab",
+        "kk",
+        "km",
+        "kn",
+        "ko",
+        "lij",
+        "lo",
+        "lt",
+        "ltg",
+        "lv",
+        "mk",
+        "mr",
+        "ms",
+        "my",
+        "nb-NO",
+        "ne-NP",
+        "nl",
+        "nn-NO",
+        "oc",
+        "pa-IN",
+        "pl",
+        "pt-BR",
+        "pt-PT",
+        "rm",
+        "ro",
+        "ru",
+        "sc",
+        "sco",
+        "si",
+        "sk",
+        "sl",
+        "son",
+        "sq",
+        "sr",
+        "sv-SE",
+        "szl",
+        "ta",
+        "te",
+        "th",
+        "tl",
+        "tr",
+        "trs",
+        "uk",
+        "ur",
+        "uz",
+        "vi",
+        "wo",
+        "zh-CN",
+        "zh-TW"
+      ],
+      "recordType": "availableLocales",
+      "schema": 1745887776020
+    },
+    {
       "globalDefault": "google",
       "id": "f3891684-2348-4e7a-9765-0c5d2d0ab1b9",
       "last_modified": 1702906502241,
@@ -340,9 +452,9 @@
       },
       "id": "05645095-d26e-4f20-9137-f24a14a23f28",
       "identifier": "bing",
-      "last_modified": 1742996759040,
+      "last_modified": 1747257920659,
       "recordType": "engine",
-      "schema": 1742810344329,
+      "schema": 1747180809142,
       "variants": [
         {
           "environment": {
@@ -459,6 +571,27 @@
                     {
                       "name": "form",
                       "value": "MZVIVO"
+                    }
+                  ],
+                  "searchTermParamName": "q"
+                }
+              }
+            },
+            {
+              "environment": {
+                "experiment": "adblockers"
+              },
+              "partnerCode": "MZABT",
+              "urls": {
+                "search": {
+                  "params": [
+                    {
+                      "name": "pc",
+                      "value": "{partnerCode}"
+                    },
+                    {
+                      "name": "form",
+                      "value": "ABT"
                     }
                   ],
                   "searchTermParamName": "q"
@@ -3102,6 +3235,47 @@
             "locales": [
               "bg"
             ]
+          }
+        }
+      ]
+    },
+    {
+      "base": {
+        "aliases": [
+          "perplexity"
+        ],
+        "classification": "general",
+        "name": "Perplexity",
+        "partnerCode": "firefox",
+        "urls": {
+          "search": {
+            "base": "https://www.perplexity.ai/search",
+            "params": [
+              {
+                "name": "pc",
+                "value": "{partnerCode}"
+              }
+            ],
+            "searchTermParamName": "q"
+          },
+          "suggestions": {
+            "base": "https://suggest.perplexity.ai/suggest",
+            "searchTermParamName": "q"
+          },
+          "trending": {
+            "base": "https://www.perplexity.ai/rest/autosuggest/list-trending-suggest"
+          }
+        }
+      },
+      "id": "bb836721-7be9-4de6-ac18-520189a69076",
+      "identifier": "perplexity",
+      "last_modified": 1748291339929,
+      "recordType": "engine",
+      "schema": 1747872009382,
+      "variants": [
+        {
+          "environment": {
+            "experiment": "perplexity"
           }
         }
       ]
@@ -8049,5 +8223,5 @@
       "schema": 1707824831520
     }
   ],
-  "timestamp": 1744212474334
+  "timestamp": 1748291339929
 }
