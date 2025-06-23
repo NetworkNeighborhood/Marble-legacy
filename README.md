@@ -1,4 +1,4 @@
-**This repo has been deprecated (legacy prefix) in order to give priority to the new one. If you have been redirected here by someone, go to the [right repository](https://github.com/NetworkNeighborhood/Marble) instead.
+**This repo has been deprecated (legacy prefix) in order to give priority to the new one. If you have been redirected here by someone, go to the [right repository](https://github.com/NetworkNeighborhood/Marble) instead.**
 <p align="center">
     <img src="browser/branding/official/content/about-logo.png" alt="Marble logo">
 </p>
